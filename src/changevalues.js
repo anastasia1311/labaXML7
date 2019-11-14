@@ -4,19 +4,19 @@ switch(value)
 {
 
     case "1":
-        value="VERY BAD";
+        value="A";
         break;
     case "2":
-        value="COULD BE BETTER";
+        value="B";
         break;
     case "3":
-        value="FINE";
+        value="C";
         break;
     case "4":
-        value="GOOD";
+        value="D";
         break;
     case "5":
-        value="EXCELLENT";
+        value="E";
         break;
     default:
         alert("NOPE");
