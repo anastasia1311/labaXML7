@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="loadxmldoc.js"></script>
     <script type="text/javascript" src="changevalues.js"></script>
+    <script type="text/javascript" src="changevalues2.js"></script>
 
 <body style="background-color:grey;">
    STUDENT'S MARKS FINAL REPORT<br />
@@ -38,10 +39,10 @@
         document.write(x[i].getAttribute("id"));
         document.write("</td>");
         document.write("<td>");
-        document.write(x[i].getElementsByTagName("student")[0].childNodes[0].nodeValue);
+        document.write(change2(x[i].getElementsByTagName("student")[0].childNodes[0].nodeValue));
         document.write("</td>");
         document.write("<td>");
-        document.write(change(x[i].getElementsByTagName("grade")[0].childNodes[0].nodeValue));
+        document.write(change1(x[i].getElementsByTagName("grade")[0].childNodes[0].nodeValue));
         document.write("</td>");
         document.write("</tr>");
     }

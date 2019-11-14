@@ -1,6 +1,6 @@
 function change2(value2)
 {
-switch(value)
+switch(value2)
 {
 
     case "Ivanov":

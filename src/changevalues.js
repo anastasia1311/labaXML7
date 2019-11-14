@@ -1,26 +1,26 @@
-function change(value)
+function change1(value1)
 {
-switch(value)
+switch(value1)
 {
 
     case "1":
-        value="A";
+        value1="a";
         break;
     case "2":
-        value="B";
+        value1="b";
         break;
     case "3":
-        value="C";
+        value1="c";
         break;
     case "4":
-        value="D";
+        value1="d";
         break;
     case "5":
-        value="E";
+        value1="e";
         break;
     default:
-        alert("NOPE");
+        alert("nope");
 }
-return value;
+return value1;
 
 }
