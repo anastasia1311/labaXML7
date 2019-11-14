@@ -3,7 +3,7 @@
 <gradeReport id="120851">
 
     <date>10‐06‐2008</date>
-    <subject>Computer Science Fundamentals</subject>
+    <subject>Biology Fundamentals</subject>
     <examiner>prof.Litvinov</examiner>
     <gradeList>
         <gradeRecord id="1">
@@ -17,6 +17,10 @@
         <gradeRecord id="3">
             <student>Sidorov</student>
             <grade>5</grade>
+        </gradeRecord>
+        <gradeRecord id="4">
+            <student>Suvorov</student>
+            <grade>1</grade>
         </gradeRecord>
     </gradeList>
 </gradeReport>
